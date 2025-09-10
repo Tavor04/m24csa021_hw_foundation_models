@@ -13,3 +13,4 @@ modelParameters:
   max_completion_tokens: 2045
   temperature: 0.9
   top_p: 0.1
+  seed: 42
