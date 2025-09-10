@@ -3,6 +3,11 @@ messages:
     content: >-
       Explain the basics of machine learning as if a dog is telling it to
       another dog in their language.
-model: mistral-ai/mistral-small-2503
-testData: []
-evaluators: []
+model: openai/gpt-4.1-mini
+testData:
+  - {}
+evaluators:
+  - name: Relevance
+    uses: github/relevance
+modelParameters:
+  max_completion_tokens: 2045
