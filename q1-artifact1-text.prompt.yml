@@ -4,3 +4,5 @@ messages:
       Explain the basics of machine learning as if a dog is telling it to
       another dog in their language.
 model: mistral-ai/mistral-small-2503
+testData: []
+evaluators: []
